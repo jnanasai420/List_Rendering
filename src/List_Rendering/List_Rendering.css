@@ -1,0 +1,26 @@
+#cardsParent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 100px;
+  row-gap: 100px;
+  background-color: whitesmoke;
+}
+#card {
+  background-color: white;
+  border-radius: 15px;
+  width: 26%;
+  padding: 15px;
+}
+#imageDiv > img {
+  width: 100%;
+  /* padding: 15px; */
+  border-radius: 20px;
+}
+#matterDiv {
+  padding-bottom: 50px;
+}
+#matterDiv > p {
+  font-size: 14px;
+}
